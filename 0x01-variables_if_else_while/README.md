@@ -5,4 +5,5 @@ task 3 prints the alphabet in lowercase, and then in uppercase, followed by a ne
 task 4 alphabet in lowercase, followed by a new line.
 task 5 prints all single digit numbers of base 10 starting from 0, followed by a new line.
 task 6 prints all single digit numbers of base 10 starting from 0, followed by a new line.
+task 7 prints the lowercase alphabet in reverse, followed by a new line.
 
