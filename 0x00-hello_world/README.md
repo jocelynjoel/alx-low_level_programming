@@ -8,3 +8,4 @@ You are not allowed to use printf
 Your program should end with the value 0
 task 5 prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
 task 6 prints the size of various types on the computer it is compiled and run on.
+task 7 generates the assembly code (Intel syntax) of a C code and save it in an output file.
