@@ -6,4 +6,5 @@ task 4 alphabet in lowercase, followed by a new line.
 task 5 prints all single digit numbers of base 10 starting from 0, followed by a new line.
 task 6 prints all single digit numbers of base 10 starting from 0, followed by a new line.
 task 7 prints the lowercase alphabet in reverse, followed by a new line.
+task 8 prints all the numbers of base 16 in lowercase, followed by a new line.
 
