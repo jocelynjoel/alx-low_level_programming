@@ -1,7 +1,7 @@
-#inlcude"main.h#
+#inlcude"main.h"
 
 /**
- * print_sign - function that prints the sign of a number..
+ * print_sign - function that prints the sign of a number
  * @n: The input number to check
  * Return: int.
  */
