@@ -3,3 +3,4 @@ task 1 prints alphabet in lowercase
 task 2 prints 10 times the alphabet, in lowercase, followed by a new line.
 task 3 checks for lowercase character.
 task 4 checks for alphabetic character.
+task 5 prints the sign of a number.
