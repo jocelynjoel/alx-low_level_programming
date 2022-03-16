@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include"main.h"
+#include"main_alx.h"
 /**
- * main - alphabat printing
+ * print_alphabet - alphabat printing
  *
  * Return: 0 on successs
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c = 'a';
 
@@ -14,7 +14,5 @@ int main(void)
 		_putchar(c);
 		c++;
 	}
-	_putchar("\n");
-
-	return (0);
+	_putchar('\n');
 }
