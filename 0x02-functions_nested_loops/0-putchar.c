@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"main.h"
+#include"main_alx.h"
 /**
  * main - print putchar
  *
@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	printf ("_putchar\n");
 	return (0);
 }

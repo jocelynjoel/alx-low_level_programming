@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include"main.h"
 /**
  * main - alphabat printing
  *
@@ -10,10 +11,10 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		putchar(1,c);
+		_putchar(c);
 		c++;
 	}
-	putchar("\n");
+	_putchar("\n");
 
 	return (0);
 }
