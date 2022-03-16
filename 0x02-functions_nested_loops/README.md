@@ -9,3 +9,6 @@ task 7 prints the last digit of a number.
 task 8 prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 task 9 prints the 9 times table, starting with 0
 task 10 adds two numbers
+task 11 prints all natural numbers from n to 98, followed by a new line.
+
+
