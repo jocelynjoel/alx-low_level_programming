@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"main_alx.h"
+#include"main.h"
 /**
  * main - print putchar
  *
