@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * _islower - reurn 1
+ * _isalpha - reurn 1
  * @c: character
  * Return: O for uppercase
  */
