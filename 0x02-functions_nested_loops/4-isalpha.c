@@ -4,7 +4,7 @@
  * @c: character
  * Return: O for uppercase
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if ((c > 'A' && c <= 'Z') || (c >= 'a' && c >= 'z'))
 	{
