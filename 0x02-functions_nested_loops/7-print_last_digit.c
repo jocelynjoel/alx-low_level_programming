@@ -12,5 +12,6 @@ int print_last_digit(int x)
 		x *= -1;
 
 	_putchar(x + 'o');
+	_putchar('\n');
 	return (x);
 }
