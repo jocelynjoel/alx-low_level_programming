@@ -2,7 +2,6 @@
 
 /**
  * more_numbers -  function that prints 10 times the numbers, from 0 to 14.
- * 
  * Return: nothing.
  */
 void more_numbers(void)
@@ -15,10 +14,8 @@ void more_numbers(void)
 		{
 			if (y > 9)
 				_putchar((y / 10) + '0');
-			
 			_putchar((y % 10) + '0');
 		}
 		_putchar('\n');
 	}
-	
 }
