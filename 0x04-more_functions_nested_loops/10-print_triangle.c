@@ -7,22 +7,26 @@
  */
 void print_triangle(int size)
 {
-	int row, col, aux;
-
-	if (size > 0)
+	if (size <= 0)
 	{
-		for (row = 0; row < size; row++)
+		_putchar('\n');
+	}
+	else
+	{
+
+		int i, j, k;
+
+		for (i = size - 1; i >= 0; i--)
 		{
-			for (aux = size - row; aux > 0; aux--)
+			for (j = 1; j <= i; j++)
 			{
 				_putchar(' ');
 			}
-			for (col = 0; col < row; col++)
+			for (k = 0; k < (size - i); k++)
 			{
 				_putchar('#');
 			}
 			_putchar('\n');
+		}
 	}
-	else
-		_putchar('\n');
 }
