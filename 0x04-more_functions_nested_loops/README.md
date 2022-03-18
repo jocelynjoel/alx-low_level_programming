@@ -8,3 +8,5 @@ task 6  draws a straight line in the terminal.
 task 7 draws a diagonal line on the terminal.
 task 8 prints a square, followed by a new line.
 task 9 prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
+task 10 prints a triangle, followed by a new line.
+
