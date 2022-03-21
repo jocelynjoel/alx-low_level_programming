@@ -17,8 +17,8 @@ void print_rev(char *str)
 	}
 	while (i > 0)
 	{
-		s--;
-		_putchar(*s);
+		str--;
+		_putchar(*str);
 		i--;
 	}
 	_putchar('\n')
