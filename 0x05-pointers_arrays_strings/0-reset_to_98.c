@@ -6,9 +6,7 @@
  *@n: pointer
  * Return: 0
  */
-void main(int n)
+void main(int *n)
 {
-	int *a = &n;
-
-	*a = 98;
-	return (*a);
+	*n = 98;
+}
