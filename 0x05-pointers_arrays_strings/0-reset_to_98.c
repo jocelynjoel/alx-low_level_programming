@@ -1,5 +1,6 @@
 #include"main.h"
 
+
 /**
  * main - void function
  *@n: pointer
@@ -10,4 +11,4 @@ void main(int n)
 	int *a = &n;
 
 	*a = 98;
-	return (0);
+	return (*a);
