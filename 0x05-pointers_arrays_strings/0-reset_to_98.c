@@ -5,10 +5,9 @@
  *@n: pointer
  * Return: 0
  */
-void main(int *n)
+void main(int n)
 {
-	int a = 14;
+	int *a = &n;
 
-	n = &a;
-	*n = 98;
+	*a = 98;
 	return (0);
