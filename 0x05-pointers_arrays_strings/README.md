@@ -4,3 +4,4 @@ task 2  returns the length of a string.
 task 3 prints a string, followed by a new line, to stdout.
 task 4 prints a string, in reverse, followed by a new line.
 task 5 reverses a string.
+task 6 prints every other character of a string, starting with the first character, followed by a new line.
