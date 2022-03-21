@@ -2,7 +2,7 @@
 
 
 /**
- * main - void function
+ * reset_to_98 - void function that value of pointer
  *@n: pointer
  * Return: 0
  */
