@@ -11,3 +11,5 @@ Prototype: void puts_half(char *str);
 The function should print the second half of the string
 If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
 task 7  prints n elements of an array of integers, followed by a new line.
+task 8copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+task 9 copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
