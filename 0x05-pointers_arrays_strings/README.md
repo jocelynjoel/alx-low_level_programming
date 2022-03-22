@@ -14,3 +14,4 @@ task 7  prints n elements of an array of integers, followed by a new line.
 task 8copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
 task 9 copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
 task 10 function that convert a string to an integer.
+task 11 generates random valid passwords for the program 101-crackme.
