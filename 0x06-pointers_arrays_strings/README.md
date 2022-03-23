@@ -9,5 +9,4 @@ task 5: function that changes all lowercase letters of a string to uppercase.
 task 6: function that capitalizes all words of a string.
 task 7: function that encodes a string into 1337.
 task 8: function that encodes a string using rot13.
-
-
+task 9: function that prints an integer.
