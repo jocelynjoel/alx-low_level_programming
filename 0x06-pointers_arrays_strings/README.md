@@ -11,3 +11,6 @@ task 7: function that encodes a string into 1337.
 task 8: function that encodes a string using rot13.
 task 9: function that prints an integer.
 task 10: Adds one line to this code, so that the program prints a[2] = 98, followed by a new line.
+task 11 : function that adds two numbers.
+
+
