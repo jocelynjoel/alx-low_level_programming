@@ -6,3 +6,4 @@ task 2 : locates a character in a string.
 task 3 : gets the length of a prefix substring.
 task 4: searches a string for any of a set of bytes.
 task 5 :  locates a substring.
+task 6 : prints the chessboard.
