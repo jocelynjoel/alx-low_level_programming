@@ -9,3 +9,4 @@ task 5 :  locates a substring.
 task 6 : prints the chessboard.
 task 7 :  prints the sum of the two diagonals of a square matrix of integers.
 task 8 : sets the value of a pointer to a char.
+task 9 : contains the password for the crackme2 executable.
