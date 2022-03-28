@@ -8,3 +8,4 @@ task 4: searches a string for any of a set of bytes.
 task 5 :  locates a substring.
 task 6 : prints the chessboard.
 task 7 :  prints the sum of the two diagonals of a square matrix of integers.
+task 8 : sets the value of a pointer to a char.
