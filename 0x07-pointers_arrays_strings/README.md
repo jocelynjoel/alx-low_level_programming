@@ -7,3 +7,4 @@ task 3 : gets the length of a prefix substring.
 task 4: searches a string for any of a set of bytes.
 task 5 :  locates a substring.
 task 6 : prints the chessboard.
+task 7 :  prints the sum of the two diagonals of a square matrix of integers.
