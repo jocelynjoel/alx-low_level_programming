@@ -1,4 +1,4 @@
-pointers_arrays_strings tasks
+# Pointers_arrays_strings tasks
 
 task 0: function that concatenates two strings.
 task 1: function that concatenates two strings.
