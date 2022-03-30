@@ -1,4 +1,4 @@
-#0 alx-low_level_programming
+# 0 alx-low_level_programming
 
 we have  this directory:
  0x00-hello_world 
@@ -16,3 +16,5 @@ we have  this directory:
   0x06-pointers_arrays_strings 
 
   0x07-pointers_arrays_strings 
+
+   0x08-recursion
