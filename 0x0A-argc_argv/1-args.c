@@ -6,7 +6,7 @@
  * @argv: second argument
  * Return: 0
  */
-int main(int argc, char *argv __attribute__((unused)))
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 	print("%d\n", argc);
 	return(0);
