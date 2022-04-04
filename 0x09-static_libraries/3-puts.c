@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * _islower - check if c is lowercase
+ * _puts - prints a string, followed by a new line,
  * @c: character check if is lowercase
  * Return: 1 sucess or 0 in fail
  */
-int _islower(int c)
+void _puts(char *str)
 {
-	if (c > 97 && c <= 122)
+	int i = 0;
+
+	while (str[i])
 	{
-	return (1);
+		_putchar(str[i]);
+		i++;
 	}
-	else
-	{
-	return (0);
-	}
+	_putchar('\n');
 }
