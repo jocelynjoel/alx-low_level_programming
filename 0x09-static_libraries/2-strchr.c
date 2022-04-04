@@ -1,37 +1,18 @@
+#include"main.h"
 /**
- * _atoi - atoi
- * @s: pointer
- * Return: ret
+ *_strchr - locates a character in a string,
+ * @s: string.
+ * @c: character.
+ * Return: the pointer to the first occurrence of the character c.*
  */
-int _atoi(char *s)
+char *_strchr(char *s, char c)
 {
-	int flag = 1;
-	unsigned int ret = 0;
-	int i = 0;
-	unsigned int si = 1;
+	unsigned int i = 0;
 
-	for (; s[i]; i++)
-		if (flag)
-		{
-			if (s[i] == '-')
-			{
-				si = si * -1;
-			}
-			if (s[i] == '+')
-			{
-				si = si * 1;
-			}
-			if (s[i] >= '0' && s[i] <= '9')
-			{
-				ret = (ret * 10) + (s[i] - 48);
-				if (s[i + 1] < '0' || s[i + 1] > '9')
-				{
-					flag = 0;
-				}
-			}
-		}
-		else
-			break;
-	ret = ret * si;
-	return (ret);
+	for (; *(s + i) != '\0'; i++)
+		if (*(s + i) == c)
+			return (s + i);
+	if (*(s + i) == c)
+		return (s + i);
+	return ('\0');
 }
