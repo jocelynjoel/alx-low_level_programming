@@ -1,31 +1,29 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ * _strdup - returns a pointer to a newly allocated space in memory.
+ * @str: string.
  *
- * Return: Nothing.
+ * Return: pointer of an array of chars
  */
-void simple_print_buffer(char *buffer, unsigned int size)
+char *_strdup(char *str)
 {
-unsigned int i;
+	char *strout;
+	unsigned int i, j;
 
-i = 0;
-while (i < size)
-{
-	if (i % 10)
-	{
-		printf(" ");
-	}
-	if (!(i % 10) && i)
-	{
-		printf("\n");
-	}
-	printf("0x%02x", buffer[i]);
-	i++;
-}
-printf("\n");
+	if (str == NULL)
+		return (NULL);
+
+	for (i = 0; str[i] != '\0'; i++)
+		;
+
+	strout = (char *)malloc(sizeof(char) * (i + 1));
+
+	if (strout == NULL)
+		return (NULL);
+
+	for (j = 0; j <= i; j++)
+		strout[j] = str[j];
+
+	return (strout);
 }
