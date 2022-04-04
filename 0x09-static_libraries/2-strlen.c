@@ -1,33 +1,15 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * _strchr - Write a function that locates a character in a string.
- * @s: string original
- * @c: character match
- * Return: p
+ * _strlen - returns the length of a string.
+ * @s: input stringeturn.
+ * Return: length of a string.
  */
-char *_strchr(char *s, char c)
+int _strlen(char *s)
 {
-	char *p = NULL;
-	int si = 0;
-	int y = 0;
+	int count = 0;
 
-	p = s;
-
-	if (s != NULL)
-	{
-		for (; s[si]; si++)
-		{
-			if (s[si] ==  c)
-			{
-				y = 1;
-				break;
-			}
-		}
-
-		if (y || c == 0)
-			p = s + si;
-		else
-		p = NULL;
-	}
-	return (p);
+	while (*(s + count) != '\0')
+		count++;
+	return(count);
 }
