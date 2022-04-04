@@ -1,22 +1,11 @@
 #include "main.h"
 /**
- * _strncpy - function that copies a string.
- * @dest: destination string
- * @src: source
- * @n: repetition
- * Return: dest
+ * _islower - prints 1 or 0 depending on input
+ * @c: first parameter
+ * Description: prints all lowercase letters
+ * Return: Always(0).
  */
-char *_strncpy(char *dest, char *src, int n)
+int _islower(int c)
 {
-	int i = 0;
-
-	for (; i < n && src[i]; i++)
-	{
-		dest[i] = src[i];
-	}
-	for (; i < n; i++)
-	{
-		dest[i] = '\0';
-	}
-	return (dest);
+	return (c >= 'a' && c <= 'z');
 }
