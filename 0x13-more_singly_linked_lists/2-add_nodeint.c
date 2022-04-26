@@ -1,6 +1,7 @@
-#include "lists.h"
+#include <stdlib.h>
 #include <string.h>
-
+#include <stdio.h>
+#include "lists.h"
 /**
  * *add_nodeint - adds a node to a linked list head
  * @head: linked list head
