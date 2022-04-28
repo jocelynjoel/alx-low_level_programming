@@ -1,62 +1,74 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * powX - raises b to p
- * @b: base
- * @p: power
- * Return: b the power of p
- */
-int powX(int b, int p)
+  *_strlen - returns the length of a string.
+  *@s: pointer to string.
+  *
+  *Return: length.
+  */
+unsigned int _strlen(const char *s)
 {
-	int prod = 1;
+	unsigned int i;
 
-	while (p > 0)
+	i = 0;
+	while (s[i] != '\0')
 	{
-		prod *= b;
-		p--;
+		i++;
 	}
-	return (prod);
+	return (i);
 }
 
 /**
- * _len - length of a string
- * @s:string
- * Return: lenght of s
- */
-int _len(const char *s)
+  *getp - returns the value of x to the power of y.
+  *@x: number.
+  *@y: power.
+  *
+  *Return: x to the pow of y.
+  *0 if x < 0.
+  */
+int getp(int x, int y)
 {
-	int len = 0;
+	if (y < 0)
+		return (0);
+	if (y == 0)
+		return (1);
+	if (y == 1)
+		return (x);
 
-	while (*s)
-	{
-		len++;
-		s++;
-	}
-	return (len);
+	return (x * getp(x, y - 1));
 }
+
 /**
- * binary_to_uint - converts a binary number to an unsigned int
- * @b: input string
- * Return: unsigned decimal conversion of input is NULL
- */
+  *binary_to_uint - converts a binary number to an unsigned int.
+  *@b: pointer to string containing 0 and 1.
+  *
+  *Return: converted number or 0 if b is null or has chars not 0 or 1.
+  */
 unsigned int binary_to_uint(const char *b)
 {
-	int power = _len(b) - 1;
-	int num = 0;
+	unsigned int num, length, index;
+	int power;
 
 	if (!b)
 		return (0);
-	while (*b)
+
+	length = _strlen(b);
+	power = 0;
+	num = 0;
+	index = length - 1;
+	while (length > 0)
 	{
-		if (*b != '0' && *b != '1')
+		if (b[index] == 48 || b[index] == 49)
+		{
+			num = num + ((b[index] - 48) * getp(2, power));
+			power++;
+			index--;
+			length--;
+		}
+		else
+		{
 			return (0);
-
-
-		if (*b == '1')
-			num += powX(2, power);
-
-		b++;
-		power--;
+		}
 	}
 	return (num);
 }
